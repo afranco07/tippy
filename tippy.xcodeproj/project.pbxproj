@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EAE47F91E20561C009A1AE4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAE47F81E20561C009A1AE4 /* SettingsViewController.swift */; };
 		7FA7FCFD1DEC61C90013FF25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA7FCFC1DEC61C90013FF25 /* AppDelegate.swift */; };
 		7FA7FCFF1DEC61C90013FF25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA7FCFE1DEC61C90013FF25 /* ViewController.swift */; };
 		7FA7FD021DEC61C90013FF25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7FD001DEC61C90013FF25 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4EAE47F81E20561C009A1AE4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		7FA7FCF91DEC61C90013FF25 /* tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA7FCFC1DEC61C90013FF25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FA7FCFE1DEC61C90013FF25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				7FA7FCFC1DEC61C90013FF25 /* AppDelegate.swift */,
 				7FA7FCFE1DEC61C90013FF25 /* ViewController.swift */,
 				7FA7FD001DEC61C90013FF25 /* Main.storyboard */,
+				4EAE47F81E20561C009A1AE4 /* SettingsViewController.swift */,
 				7FA7FD031DEC61C90013FF25 /* Assets.xcassets */,
 				7FA7FD051DEC61C90013FF25 /* LaunchScreen.storyboard */,
 				7FA7FD081DEC61C90013FF25 /* Info.plist */,
@@ -193,13 +196,16 @@
 				TargetAttributes = {
 					7FA7FCF81DEC61C90013FF25 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 					};
 					7FA7FD0C1DEC61C90013FF25 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 7FA7FCF81DEC61C90013FF25;
 					};
 					7FA7FD171DEC61C90013FF25 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 7FA7FCF81DEC61C90013FF25;
 					};
 				};
@@ -258,6 +264,7 @@
 			files = (
 				7FA7FCFF1DEC61C90013FF25 /* ViewController.swift in Sources */,
 				7FA7FCFD1DEC61C90013FF25 /* AppDelegate.swift in Sources */,
+				4EAE47F91E20561C009A1AE4 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +410,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = afranco.tippy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -414,6 +422,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = afranco.tippy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -425,6 +434,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = afranco.tippyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tippy.app/tippy";
 			};
 			name = Debug;
@@ -437,6 +447,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = afranco.tippyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tippy.app/tippy";
 			};
 			name = Release;
@@ -448,6 +459,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = afranco.tippyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = tippy;
 			};
 			name = Debug;
@@ -459,6 +471,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = afranco.tippyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = tippy;
 			};
 			name = Release;
@@ -482,6 +495,7 @@
 				7FA7FD231DEC61C90013FF25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FA7FD241DEC61C90013FF25 /* Build configuration list for PBXNativeTarget "tippyTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +504,7 @@
 				7FA7FD261DEC61C90013FF25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FA7FD271DEC61C90013FF25 /* Build configuration list for PBXNativeTarget "tippyUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +513,7 @@
 				7FA7FD291DEC61C90013FF25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
