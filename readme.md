@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-!(https://bytebucket.org/afranco07/iostipcalculator/raw/de34db00ea28f2da449b89f865c1c8e09fe7259e/iosDemo.gif)
+![gif file](https://bytebucket.org/afranco07/iostipcalculator/raw/de34db00ea28f2da449b89f865c1c8e09fe7259e/iosDemo.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
