@@ -22,6 +22,9 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
+    I do not own a Mac computer so it made making an app much harder. I had to borrow computers and 
+    go to places where there would be Mac's with Xcode pre-installed. Most weren't open after I got 
+    out of work.
 
 ## Video Walkthrough 
 
@@ -37,7 +40,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2017 Alberto Franco
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
