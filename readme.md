@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![gif file](https://bytebucket.org/afranco07/iostipcalculator/raw/de34db00ea28f2da449b89f865c1c8e09fe7259e/iosDemo.gif)
+![gif file](https://github.com/afranco07/tippy/blob/master/iosDemo.gif?raw=true)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
